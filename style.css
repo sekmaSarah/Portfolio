@@ -1,0 +1,156 @@
+header h1{
+ text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+header{
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
+
+/*--------------index------------------------*/
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*background: url("image/back.png");
+    background-size: cover;*/
+  }
+
+
+.index h1,p,nav{
+  color: black;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-left:0px;
+  gap: 10px;
+  padding: 10px;
+  margin:0;
+  padding-top: 0%;
+}
+
+
+.nav ul li{
+  padding: 10px;
+  font-family: 'AmstelvarAlpha';
+}
+
+
+.nav ul li a {
+  color:black;
+  text-decoration: none;
+  padding: 1em 2em 1em 2em;
+  display:inline-block;
+  border-radius: 5px;
+}
+
+
+.nav ul li :hover{
+  color: rgb(127, 137, 230);
+}
+
+
+.index main{
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.index main .accroche{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-right: 7%;
+  padding-top: 10%;
+}
+
+
+.index main section{
+  display: flex;
+  align-items: center;
+}
+
+.index .contact ul{
+  list-style-type: none;
+  padding-left: 0%;
+}
+
+.index .contact ul li{
+  padding: 1em 1em ;
+}
+
+.index h1, .index p{
+  border-bottom:2px solid black ;
+  font-size:x-large
+}
+/*--------------hardskills------------*/
+
+.hardSkills img{  
+  padding: 3%;
+  margin-left: 3%;
+
+}
+
+/*--------------softskills------------*/
+
+.softSkills main{
+  display: flex;
+  flex-direction: row;
+}
+
+.softSkills main section{
+  border: 2px solid black;
+  padding: 2%;
+  margin: 2%;
+  border-radius :10px;;
+}
+
+.softSkills h1{
+  padding-left: 3%;
+}
+
+/*-------------ppp--------------*/
+.ppp section{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ppp section ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.ppp section ul li{
+  padding: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
