@@ -7,6 +7,8 @@ header h1{
 header{
   border-bottom: 2px solid black;
   border-top: 2px solid black;
+  background-color: rgb(75, 75, 224);
+  color: white;
 }
 
 /*--------------index------------------------*/
@@ -94,15 +96,14 @@ body {
 }
 
 .index h1, .index p{
-  border-bottom:2px solid black ;
   font-size:x-large
 }
 /*--------------hardskills------------*/
 
 .hardSkills img{  
-  padding: 3%;
-  margin-left: 3%;
-
+  padding: 2%;
+  padding-left: 6%;
+  width:200px;
 }
 
 /*--------------softskills------------*/
@@ -113,7 +114,7 @@ body {
 }
 
 .softSkills main section{
-  border: 2px solid black;
+  border: 3px solid rgb(75, 75, 224);
   padding: 2%;
   margin: 2%;
   border-radius :10px;;
@@ -124,19 +125,40 @@ body {
 }
 
 /*-------------ppp--------------*/
-.ppp section{
+.ppp main{
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
 }
 
-.ppp section ul{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+.ppp main section {
+  border: 3px solid rgb(75, 75, 224);
+  padding: 2%;
+  margin: 2%;
+  border-radius :10px;
 }
 
-.ppp section ul li{
-  padding: 3%;
+/*-----------Projets---------------*/
+.projets main{
+display: flex;
+flex-direction: row;
+
+}
+
+.projets main section{
+  border: 3px solid rgb(75, 75, 224);
+  padding: 2%;
+  margin: 2%;
+  border-radius :10px;
+  
+}
+
+.projets h1{
+  padding-left: 3%;
+}
+.projets p{
+  padding: 2%;
+  padding-bottom: 0%;
+ 
 }
 
 
