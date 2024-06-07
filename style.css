@@ -9,23 +9,6 @@ header{
   border-top: 2px solid black;
   background-color: rgb(75, 75, 224);
   color: white;
-  
-}
-
-/*--------------index------------------------*/
-
-
-body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background: linear-gradient(#9198e5,white,#9198e5);
-    height: 100%;
-    margin: 0%;
-    padding: 0%;
-  }
-
-
-.index h1,p,nav{
-  color: black;
 }
 
 
@@ -62,9 +45,30 @@ body {
 
 
 .nav ul li :hover{
-  background-color: rgb(202, 206, 245);
-  color: white;
+  background-color: rgb(214, 39, 39);
+  color: rgb(202, 206, 245);
 }
+
+
+/*--------------index------------------------*/
+
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(white,#9198e5,white);
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+
+
+.index h1,p,nav{
+  color: black;
+}
+.index nav ul{
+  border-bottom: 2px solid rgb(214, 39, 39); ;
+}
+
 
 
 .index main{
@@ -89,14 +93,18 @@ body {
   display: flex;
   align-items: center;
 }
-
-.index .contact ul{
-  list-style-type: none;
-  padding-left: 0%;
+.index .contact{
+  padding-top: 30%;
 }
 
-.index .contact ul li{
-  padding: 1em 1em ;
+.index .contact p{
+  margin: 3%;
+  font-size:small
+}
+
+
+.index h1{
+  color: rgb(214, 39, 39);;
 }
 
 .index h1, .index p{
@@ -106,7 +114,7 @@ body {
 
 .hardSkills img{  
   padding: 2%;
-  padding-left: 6%;
+  padding-left: 10%;
   width:200px;
 }
 
