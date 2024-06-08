@@ -66,7 +66,7 @@ body {
   color: black;
 }
 .index nav ul{
-  border-bottom: 2px solid rgb(214, 39, 39); ;
+  border-bottom: 2px solid rgb(214, 39, 39); 
 }
 
 
@@ -86,6 +86,9 @@ body {
   margin: auto;
   padding-right: 7%;
   padding-top: 10%;
+  border: 2px solid  rgb(214, 39, 39);
+  padding: 5%;
+  border-radius:10px;
 }
 
 
